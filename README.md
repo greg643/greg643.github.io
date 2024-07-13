@@ -16,7 +16,7 @@ Below is a working prototype of the Order Inquiry Follow-up component:
 <iframe
     src="https://greg643.github.io/?path=/story/components-orderinquiry--default&full=1&shortcuts=false&singleStory=true"
     width="100%"
-    height="500px"
+    height="700px"
     style="border: 1px solid #ccc; border-radius: 4px;"
     allowfullscreen
 ></iframe>

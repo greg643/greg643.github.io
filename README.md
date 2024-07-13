@@ -14,7 +14,7 @@ This project implements an Order Inquiry Follow-up component as part of a larger
 Below is a working prototype of the Order Inquiry Follow-up component:
 
 <iframe
-    src="https://gre643.github.io/main/iframe.html?id=components-orderinquiry--default&viewMode=story"
+    src="https://greg643.github.io/?path=/story/components-orderinquiry--default&full=1&shortcuts=false&singleStory=true"
     width="100%"
     height="500px"
     style="border: 1px solid #ccc; border-radius: 4px;"

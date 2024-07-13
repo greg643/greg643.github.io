@@ -34,10 +34,25 @@
 
     <p>This project describes a support model where inquiries are processed by an LLM but intermediate by a human as part of support for a trading system.</p>
 
-    <h2>Requirements</h2>
+    <h2>Objectives</h2>
+
+    <p>The idea is "cybernetic support" where an AI tool can either read inputs or the customer support person pastes them into the tool. </p>
+
+    <p>The tool knows how to perform a set of actions and then attempts to complete them. The support person evaluates the answer and exercises discretion as to whether it is correct. 
+    They can choose to use the information provided; attempt to clarify with more inputs, or disregard.</p>
 
     <ol>
-        <li>The component should provide an input for a client's request, which can be about an order, system behavior or documentation.</li>
+        <li>The model does not attempt to remove humans from the equation, it seeks to make them more productive and relies on their judgment as to whether it is working or not</li>
+        <li>The model can make a less experienced employee as productive as a more experienced employee faster, by seeing what goes into a good support inquiry</li>
+        <li>The model puts a huge premium on the value of quality documentation. </li>
+        <li>Writers of documentation can also realize benefits, because they no longer need to worry about a passive user who might be too lazy to read or re-interpret and trapped knowledge. the model can ensure that the documenation is available and interpreted. </li>
+        <li>In theory, the documentation could be enhanced by users as they learn and discover gaps.</li>
+    </ol>
+    
+    <h2>Interface</h2>
+
+    <ol>
+        <li>The support component should provide an input for a client's request, which can be about an order, system behavior or documentation.</li>
         <li>It should provide a "Process Request" button which will send the request to the LLM.</li>
         <li>After processing, it should show the proposed action(s) it took, and the action results.</li>
         <li>The user can Accept, Modify, or Ignore the proposed action, which is logged as feedback to the designers of the LLM.</li>
@@ -45,7 +60,7 @@
 
     <h2>Storybook Prototype</h2>
 
-    <p>Below is a prototype of the Cybernetic Support model:</p>
+    <p>Below is a prototype of the Cybernetic Support model, using Storybook and React for visualization:</p>
 
     <iframe
         src="https://greg643.github.io/?path=/story/components-orderinquiry--default&full=1&shortcuts=false&singleStory=true"

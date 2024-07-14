@@ -2,6 +2,7 @@ const d=()=>{
   const[c,h]=r.useState("I'm asking about #3, the 31:05 order. What bid/ask did you see for that order?"),
   [a,p]=r.useState(""),
   [x,u]=r.useState(""),
+    
   m=()=>{
     p("SELECT side, size, time, qty, execQty \nFROM ORDERS \nWHERE date = CURRENT_DATE \n  AND symbol = 'NKE' \n  AND time BETWEEN '10:25:00' AND '10:35:00'\n  AND customerID = [CustomerID]"),
     u("Here are 3 orders in that window. Which one are you asking about? \n1. Buy 100 NKE @ 10:28:35, Filled: 100 \n2. Sell 50 NKE @ 10:29:12, Filled: 50 \n3. Buy 100 NKE @ 10:31:05, Filled: 75 ")
